@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Support page</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dubs support page</h1>
+        <form action="/submit" method="post">
+                 <div>
+                    <div class="form-item">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" required><br>
+                </div>
+                <div class="form-item">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" required><br><br>
+                    </div>
+                    <div class="form-item">
+                    <label for="subject">Subject</label><br>
+                     <input type="text" name="subject" required><br>
+                     </div>
+                     <div class="form-item">
+                    <label for="description">Description</label><br>
+                    <textarea name="description" rows="6" required></textarea><br>
+                    </div>
+
+                   
+                 </div>
+                 <!-- <div>
+                     ${recaptcha.render()}
+                 </div> -->
+                 <div class="button-part">
+                     <button>Submit</button>
+                 </div>
+                 </form>
+    </div>
+</body>
+</html>
